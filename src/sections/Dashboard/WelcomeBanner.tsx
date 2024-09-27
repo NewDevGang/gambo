@@ -124,8 +124,8 @@ export function WelcomeBanner() {
         <button onClick={copyInvite}>
           💸 Copy Invite
         </button>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liquidity
+        <button onClick={() => window.open('https://twitter.com/brokebotscasino', '_blank')}>
+          🚀 Twitter
         </button>
         <button onClick={() => window.open('https://t.me/BrokeBotsCasino', '_blank')}>
           💬 Telegram
