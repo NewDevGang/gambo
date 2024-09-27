@@ -16,13 +16,13 @@ export const EXPLORER_URL = 'https://explorer.gamba.so'
 export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.01 // 1% !!max 5%!!
+export const PLATFORM_CREATOR_FEE = 0.04 // 1% !!max 5%!!
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.001 // 0.1%
 
 // Referral fee (in %)
-export const PLATFORM_REFERRAL_FEE = 0.0025 // 0.25%
+export const PLATFORM_REFERRAL_FEE = 0.0099 // 0.25%
 
 /** If the user should be able to revoke an invite after they've accepted an invite */
 export const PLATFORM_ALLOW_REFERRER_REMOVAL = true
@@ -60,8 +60,8 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Fake',
-    symbol: 'FAKE',
+    name: 'Repair',
+    symbol: 'REPAIR',
     image: '/fakemoney.png',
     baseWager: 1e9,
     decimals: 9,
@@ -88,7 +88,7 @@ export const TOS_HTML = `
   <p><b>6. Licensing Disclaimer:</b> Not a licensed casino; for simulation only.</p>
   <p><b>7. Fair Play:</b> Games are conducted fairly and transparently.</p>
   <p><b>8. Data Privacy:</b> Your privacy is important to us.</p>
-  <p><b>9. Responsible Gaming:</b> Play responsibly; seek help if needed.</p>
+  <p><b>9. Responsible Gaming:</b> Play responsibly; if you a bitch, don't fuck around.</p>
 `
 
 /**
