@@ -1,5 +1,5 @@
 import { PublicKey } from '@solana/web3.js'
-import { FAKE_TOKEN_MINT, PoolToken, TokenMeta, makeHeliusTokenFetcher } from 'gamba-react-ui-v2'
+import { 9TfVRdTU9X7Q9QjbBQp2dXWdndkk9YbQjEKGinvgpump, PoolToken, TokenMeta, makeHeliusTokenFetcher } from 'gamba-react-ui-v2'
 
 // Get RPC from the .env file or default to the public RPC.
 export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.mainnet-beta.solana.com'
@@ -40,7 +40,7 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  */
 export const POOLS = [
   // REPAIR:
-  lp(FAKE_TOKEN_MINT),
+  lp(9TfVRdTU9X7Q9QjbBQp2dXWdndkk9YbQjEKGinvgpump),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
 
@@ -52,7 +52,7 @@ export const DEFAULT_POOL = POOLS[0]
  */
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
-    mint: FAKE_TOKEN_MINT,
+    mint: 9TfVRdTU9X7Q9QjbBQp2dXWdndkk9YbQjEKGinvgpump,
     name: 'Repair',
     symbol: 'REPAIR',
     image: '/fakemoney.png',
